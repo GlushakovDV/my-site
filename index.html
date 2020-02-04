@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    Portfolio
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#" data-scroll="#about_me">ОБО МНЕ</a>
+                    <a class="nav__link" href="#" data-scroll="#works">ПОРТФОЛИО</a>
+                    <a class="nav__link" href="#" data-modal="#modal_hire_me">КОНТАКТЫ</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Привет!</h1>
+                <h2 class="intro__subtitle">
+                   я, Глушаков Дмитрий
+                </h2>
+                <div class="intro__text">Начинающий веб-дизайнер</div>
+                <button class="btn__intro" type="button" data-scroll="#about_me">Немного обо мне</button>
+            </div>
+        </div>
+    </div>
+           
+           
+
+    <section class="about" id="about_me">
+       <div class="container">
+           <div class="about__inner">
+              
+               <div class="about__content">
+                   <h3 class="about__title">ОБО МНЕ</h3>               <h2 class="about__bigtitle">КТО Я</h2>
+                   <div class="about__text">
+                       <p>Молодой, активный и коммуникабельный человек, который стремиться к новому опыту.</p> <p>Изучение веб-дизайна начал недавно, мне понравилось данная сфера работы и появилось сильное желание стать профессионалом в данной области. Конечно, я понимаю, что это займет много времени и сил, но я буду готов! </p> 
+                       <p>На данный момент, я черпаю знания по средствам уроков на YouTube и обучающих курсов в приложении SoloLearm, но основной масив информации изучаю на сайтах htmlacademy.ru и coursera.org, а также др. ресурсах.</p> 
+                       <p>На данный момент у меня имеются базовые знания Photoshop, HTML, CSS, Figma, Brackets.</p>
+                       <p>В случае, если вы заинтересовались моей кандидатурой и готовы взять на работу, вы дадите мне стимул для профессионального развития в данном направлении.</p>
+                   </div>
+                 
+                <a class="social__btn" href="https://hh.ru/resume/64f5f456ff07a68f630039ed1f7557487a585a" target="_blank">
+                    <button class="btn" type="button">
+                    HH.ru</button></a>
+                <button class="btn" type="button" data-modal="#modal_resume">Немного о опыте работы</button>
+
+               </div>    
+           </div>
+       </div>
+   </section>
+   
+   
+   <div class="container">
+        <div class="skills">
+            <div class="skills__windows">
+                <div class="skills__text">Мои Навыки</div>
+                <div class="skills__picture">
+                    <img class="skills__icon" src="css/img/bar1.png" alt="">
+                    <img class="skills__icon" src="css/img/bar2.png" alt="">
+                    <img class="skills__icon" src="css/img/bar3.png" alt="">
+                    <img class="skills__icon" src="css/img/bar4.png" alt="">
+                    <img class="skills__icon" src="css/img/bar5.png" alt="">
+                    <img class="skills__icon" src="css/img/bar6.png" alt="">
+                </div>     
+            </div>
+        </div>
+   </div> 
+   
+                        
+                                                                  
+   <div class="works" id="works">
+        <div class="container">
+
+            <div class="works__nav">
+                <a class="works__nav-link" href="#" data-filter="All">All</a>
+                <a class="works__nav-link" href="#" data-filter="Figma">Figma</a>
+                <a class="works__nav-link" href="#"  data-filter="Photoshop">Photoshop</a>
+                <a class="works__nav-link" href="#" data-filter="Websites">Websites</a>
+            </div>
+
+            <div class="windows">
+                <div class="windows__col" data-cat="Figma">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Figma</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows__col" data-cat="Photoshop">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Photoshop</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows__col" data-cat="Websites">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Websites</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows__col" data-cat="Photoshop">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Photoshop</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows__col" data-cat="Websites">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Websites</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows__col" data-cat="Figma">
+                    <div class="windows__item">
+                        <img class="windows__image" src="https://placehold.it/370x300" alt="">
+                        <div class="windows__col-content">
+                            <div class="windows__cat">category: Figma</div>
+                            <div class="windows__title">
+                                Project title
+                                <time class="windows__date" datetime="2019-11-22">2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div><!-- /.windows -->
+        </div><!-- /.container -->
+    </div><!-- /.works -->  
+               
+               
+               
+                
+   <!-- Footer -->
+   <footer class="footer">
+       <div class="container">
+          
+           <div class="footer__inner">
+              <div class="footer__credits">
+                 
+                  <div class="footer__social">
+                      <a href="https://hh.ru/resume/64f5f456ff07a68f630039ed1f7557487a585a" target="_blank">
+                          <img class="social__link" src="css/img/min-hh-red%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" width="33px" height="33px" alt="">
+                      </a>
+                      <a href="#" data-modal="#modal_hire_me">
+                          <img src="css/img/svg_phone_footer.svg" width="33px" height="33px" alt="">
+                      </a>
+                      <a href="#" data-modal="#modal_hire_me">
+                          <img src="css/img/svg_telegram_footer.svg" width="33px" height="33px" alt="">
+                      </a>
+                      <a href="#" data-modal="#modal_hire_me">
+                          <img src="css/img/svg_convert_footer.svg" width="33px" height="33px" alt="">
+                      </a>
+                      
+                  </div> <!-- /.footer__social -->
+              </div>
+               
+               <nav class="footer__nav">
+                   <a class="footer__nav-link" href="#" data-scroll="#header">НА ГЛАВНУЮ</a>
+                   <a class="footer__nav-link" href="#" data-scroll="#about_me">ОБО МНЕ</a>
+                   <a class="footer__nav-link" href="#" data-modal="#modal_hire_me">КОНТАКТЫ</a>
+               </nav>
+           </div> <!-- /.footer__inner -->
+           
+       </div>
+   </footer>
+            
+                                                                                            
+   <!-- Modals style="display: none;"-->
+   <div class="modal" id="modal_resume">
+       <div class="modal__dialog">
+         
+         <button class="modal__close" type="button" data-close>
+             <img src="css/img/close.svg" alt="Close">
+         </button> 
+         
+         <div class="modal__content">
+          <h3 class="modal__title  text-center">РЕЗЮМЕ</h3>
+          
+          <div class="text-center">
+              <a class="btn btn--thin" href="https://hh.ru/resume/64f5f456ff07a68f630039ed1f7557487a585a" target="_blank">HH.ru</a>
+          </div> 
+                      
+           <div class="timeline">   
+              <table>
+                 
+                  <tr>
+                      <td class="date" valign="top">2018-2019</td>
+                      <td class="text__content">Высшее образование<br>
+                     <div class="text__bold">Российская таможенная академия</div>    
+                     <div class="text__light">факультет таможенного дела, 
+                     специализация: специалист таможенного дела</div></td>
+                  </tr>
+                  <tr>
+                      <td class="date" valign="top">Февраль - апрель 2019</td>
+                      <td class="text__content">
+                          Работа в ООО “РОСС”<br>
+                          <div class="text__bold">Таможенный брокер</div>
+                          г.Новозыбков<br>
+                          <div class="text__light">Обязанности: Проверка достоверности предоставленных документов. Формализация документов. Заполнение ДТ и сопутствующих ей необходимых для выпуска документов</div></td>
+                  </tr>
+                  <tr>
+                      <td class="date" valign="top">С дек. 2019
+                      </td>
+                      <td class="text__content">
+                      <div class="text__bold">Самообучение HTML, CSS и основам web-design</div></td>
+                  </tr>
+              </table>
+              
+              
+              </div>
+         </div><!--/.modal__conten-->
+           
+       </div><!--/.modal__dialog-->
+   </div><!--/.Modal-->
+      
+      
+    <!-- Hire me style="display: none;" -->
+   <div class="modal" id="modal_hire_me">
+       <div class="modal__dialog modal__dialog--sm">
+         
+         <button class="modal__close" type="button" data-close>
+             <img src="css/img/close.svg" alt="Close">
+         </button> 
+         
+         <div class="modal__content">
+          <h3 class="modal__title mb-0">ДАВАЙТЕ ПОГОВОРИМ!</h3>
+          <h4 class="modal__subtitle">НАПИШИТЕ, А ЛУЧШЕ ПОЗВОНИТЕ</h4>
+          
+          <div class="contact">
+              <div class="contact__left">
+                  <ul class="contact__info">
+                  <li class="contact__info-item">
+                     <img class="contact__info-icon" src="css/img/svg_phone_footer.svg" width="33px" alt="">
+                      Телефон:<br>
+                      8-977-977-18-03 
+                  </li>
+                  <li class="contact__info-item">
+                     <img class="contact__info-icon" src="css/img/svg_convert_footer.svg" width="33px" alt="">
+                      E-mail:<br>
+                      dv.glushakov@mail.ru 
+                  </li> 
+                  </ul>
+              </div>
+              
+              <div class="contact__right">
+              <ul class="contact__info">
+                  <li class="contact__info-item">
+                     <img class="contact__info-icon" src="css/img/svg_telegram_footer.svg" width="33px" alt="">
+                      Телеграм:<br>
+                      8-977-977-18-03  
+                  </li>
+                  <li class="contact__info-item" >
+                    <a class="social__link" href="https://hh.ru/resume/64f5f456ff07a68f630039ed1f7557487a585a" target="_blank">
+                        <img class="contact__info-icon" src="css/img/min-hh-red%20-%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BA%D0%BD%D0%B0.png" width="33px" alt=""></a>
+                        Мое резюме на HH.ru:<br>
+                        кликай на иконку 
+                        
+                  </li>
+              </ul>
+              </div><!--/.contact__right-->
+          </div><!--/.contact-->
+          
+         
+                      
+           
+         </div><!--/.modal__conten-->
+           
+       </div><!--/.modal__dialog-->
+   </div><!--/.Hire me-->
+     
+          
+               
+                         
+      <!-- JS -->
+   <script src="JS/app.js"></script>     
+      
+      
+       
+                           
+</body>
+</html>
