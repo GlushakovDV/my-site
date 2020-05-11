@@ -2,20 +2,20 @@
 
 .intro {
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     justify-content: center;
     height: 750px;
-    padding-top: 35px;
+    padding-top: 165px;
     
-    background: url(../css/img/picture2.png) center no-repeat;
+    background: url(../css/img/bird1.png) center no-repeat;
 }
 
 .intro__inner {
     width: 100%;
     max-width: 970px;
-    margin: 0 auto;
+    //margin: 0 0;
     
-    text-align: center;
+    text-align: left;
 }
 
 .intro__title {
@@ -29,14 +29,19 @@
 }
 
 .intro__subtitle {
-    font-size: 2.13rem;
-    color: @black;
-    font-weight: 200;
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 33px;
+    
+    //color: @black;
+    font-weight: 400;
+    line-height: 0.9;    
 }
 
 .intro__text {
-    margin-bottom: 25px;
+    margin-bottom: 33px;
+    padding-left: 5px;
     
-    font-size: 1.2rem;
-    color: fade(@black, 70%);
+    font-size: 2.5rem;
+    color: fade(#000, 70%);
 }
